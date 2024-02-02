@@ -26,19 +26,44 @@ li{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 0.25rem;
+    padding: 0.5rem;
+}
+
+.headerlight{
+    border-bottom: 2px solid black;
+}
+
+.headerdark{
+    border-bottom: 2px solid white;
 }
 
 nav{
     display: flex;
+    align-items: center;
+}
+
+.btn{
+    border: none;
+    border-radius: 15px;
+    padding: 0.25rem;
+    height: 2rem;
+    padding-top: 0.05rem;
+    padding-bottom: 0.05rem;
 }
 
 .buttonlight{
     background-color: black;
     color: white;
+    margin-right: 1rem;
 }
 
 .buttondark{
     background-color: white;
     color: black;
+    margin-right: 1rem;
+}
+
+h1{
+    color: blue;
+    font-size: 3rem;
 }

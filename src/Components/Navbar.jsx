@@ -11,7 +11,7 @@ const Navbar = () => {
             <li>item 2</li>
             <li>item 3</li>
         </ul>
-        <button className={`button${theme}`} onClick={() => handleTheme()}>change display</button>
+        <button className={`button${theme} btn`} onClick={() => handleTheme()}>change display</button>
     </nav>
   )
 }
