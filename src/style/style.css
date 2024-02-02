@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.light{
+    background-color: rgb(213, 211, 211);
+    color: black;
+}
+
+.dark{
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    text-decoration: none;
+    margin: 1rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem;
+}
+
+nav{
+    display: flex;
+}
