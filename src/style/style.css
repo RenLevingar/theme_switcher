@@ -32,3 +32,13 @@ header{
 nav{
     display: flex;
 }
+
+.buttonlight{
+    background-color: black;
+    color: white;
+}
+
+.buttondark{
+    background-color: white;
+    color: black;
+}
