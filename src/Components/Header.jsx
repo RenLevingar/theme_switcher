@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className={`header${theme}`}>
         <div>
-            <h1>Jobs</h1>
+            <h1>Team Work</h1>
         </div>  
         <Navbar/>
     </header>

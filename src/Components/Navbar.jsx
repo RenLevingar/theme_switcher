@@ -6,10 +6,11 @@ const Navbar = () => {
 
   return (
     <nav>
+      <p>This site includes important parts aboput me like:</p>
         <ul>
-            <li>item 1</li>
-            <li>item 2</li>
-            <li>item 3</li>
+            <li>Management</li>
+            <li>Resume</li>
+            <li>College</li>
         </ul>
         <button className={`button${theme} btn`} onClick={() => handleTheme()}>change display</button>
     </nav>
